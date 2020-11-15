@@ -3,16 +3,16 @@
 
 ## Installation
 
-- You'll need to head to `http://travistidwell.com/jsencrypt/demo/` to create a key pair. I recommend using 512 bit for jwt auth
+- You'll need to head [here](http://travistidwell.com/jsencrypt/demo) to create a key pair. I recommend using 512 bit for jwt auth
 - Copy these into a pair of files named `private.key` and `public.key`
 
-1. Docker
+### Docker
 - `cp .env.example .env` - then fill in your mailgun details in the new .env file
 - `docker-compose up` - this will build the container and database required
 - The database runs on port `3307` locally to keep from interfering with any database you have running
 - The api is available on `PORT=4001`
 
-2. Local
+### Local
 - Create a sql database
 - `cp .env.example .env` - you'll need to change the database details to your own
 - `npm install`
