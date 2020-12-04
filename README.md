@@ -20,7 +20,7 @@
 - `npm run dev` - this will start the dev serve on `PORT=4001`
 
 
-### To do
+## To do
 
 - [ ] Choice of email provider
 - [ ] Sms link
